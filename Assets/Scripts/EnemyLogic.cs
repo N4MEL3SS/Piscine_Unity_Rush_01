@@ -5,9 +5,6 @@ using UnityEngine.AI;
 
 public class EnemyLogic : MonoBehaviour
 {
-    /***************************************/
-    /**************Enemy stats**************/
-    /***************************************/
     [HideInInspector]public float _str;
     [HideInInspector]public float _agi;
     [HideInInspector]public float _con;
@@ -27,9 +24,7 @@ public class EnemyLogic : MonoBehaviour
     public bool isEpick;
 
     public ParticleSystem GetHitParticle;
-    /***************************************/
-    /**************Enemy Logic**************/
-    /***************************************/
+    
     private NavMeshAgent _agent;
     private RaycastHit _hit;
     public GameObject Target;
